@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+/* Prevent horizontal overflow on mobile */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  max-width: 100%;
+  overscroll-behavior-x: none;
+  background-color: #f8fafc;
+  background-image: 
+    radial-gradient(circle at 15% 50%, rgba(16, 185, 129, 0.05), transparent 60%),
+    radial-gradient(circle at 85% 30%, rgba(239, 68, 68, 0.04), transparent 60%),
+    radial-gradient(rgba(203, 213, 225, 0.4) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 24px 24px;
+  background-attachment: fixed;
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #10b981;
+}
+
+/* Premium Selection Highlighter */
+::selection {
+  background-color: #10b981;
+  color: white;
+}
