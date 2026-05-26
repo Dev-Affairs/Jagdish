@@ -173,13 +173,13 @@ export default function Hero() {
           {/* Ultra-Minimal floating arrow triggers anchored cleanly at the sides of the viewport */}
           <div
             onClick={prevSlide}
-            className="absolute left-8 sm:left-12 lg:left-16 top-1/2 -translate-y-1/2 text-white hover:text-[#FFC107] border-2 border-white/20 hover:border-[#FFC107] bg-white/5 backdrop-blur-sm transition-all duration-300 z-20 text-xl cursor-pointer hover:bg-white/10 w-12 h-12 flex items-center justify-center rounded-sm"
+            className="hidden md:flex absolute left-8 sm:left-12 lg:left-16 top-1/2 -translate-y-1/2 text-white hover:text-[#FFC107] border-2 border-white/20 hover:border-[#FFC107] bg-white/5 backdrop-blur-sm transition-all duration-300 z-20 text-xl cursor-pointer hover:bg-white/10 w-12 h-12 items-center justify-center rounded-sm"
           >
             <FiChevronLeft />
           </div>
           <div
             onClick={nextSlide}
-            className="absolute right-14 sm:right-16 lg:right-20 top-1/2 -translate-y-1/2 text-white hover:text-[#FFC107] border-2 border-white/20 hover:border-[#FFC107] bg-white/5 backdrop-blur-sm transition-all duration-300 z-20 text-xl cursor-pointer hover:bg-white/10 w-12 h-12 flex items-center justify-center rounded-sm"
+            className="hidden md:flex absolute right-14 sm:right-16 lg:right-20 top-1/2 -translate-y-1/2 text-white hover:text-[#FFC107] border-2 border-white/20 hover:border-[#FFC107] bg-white/5 backdrop-blur-sm transition-all duration-300 z-20 text-xl cursor-pointer hover:bg-white/10 w-12 h-12 items-center justify-center rounded-sm"
           >
             <FiChevronRight />
           </div>
