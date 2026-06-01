@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafafa;
+  --foreground: #18181b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-montserrat);
+  
+  --color-safety-blue: #111827;                /* Premium Black/Charcoal Base */
+  --color-caution-yellow: #00a859;             /* Vibrant Logo Green (Accent/Highlights) */
+  --color-accent-red: #00a859;                 /* Vibrant Logo Green (Secondary Accent) */
+  --color-structural-gray: #1f2937;            /* Slate Gray */
+  --color-deep-navy: #0f172a;                  /* Deep Slate */
+  --color-surface-muted: #f9fafb;              /* Neutral light gray background tint */
+  --color-surface-container-low: #ffffff;      
+  --color-primary-dark: #1f2937;               /* Dark charcoal hover */
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
